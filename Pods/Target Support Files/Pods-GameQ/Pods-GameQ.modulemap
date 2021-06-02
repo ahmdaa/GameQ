@@ -1,0 +1,6 @@
+framework module Pods_GameQ {
+  umbrella header "Pods-GameQ-umbrella.h"
+
+  export *
+  module * { export * }
+}
