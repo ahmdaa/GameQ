@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xKz-xv-obk">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xKz-xv-obk">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -691,7 +691,7 @@ You can favorite games you would like to track and access their profile through 
                         <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GameCell" rowHeight="100" id="PVK-b1-GBX" customClass="GameTableViewCell" customModule="GameQ" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="100"/>
+                                <rect key="frame" x="0.0" y="24.5" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PVK-b1-GBX" id="bRN-X8-Uwc">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
@@ -727,7 +727,7 @@ You can favorite games you would like to track and access their profile through 
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GameTitleCell" rowHeight="100" id="YJw-RT-Tb9" customClass="GameTableViewCell" customModule="GameQ" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="128" width="375" height="100"/>
+                                <rect key="frame" x="0.0" y="124.5" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YJw-RT-Tb9" id="67a-4X-I2M">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
@@ -930,7 +930,7 @@ Link: https://rawg.io/apidocs
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="CRu-if-9P1"/>
+        <segue reference="szR-tU-khr"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Dark-Abstract-Shapes" width="640" height="1136"/>
